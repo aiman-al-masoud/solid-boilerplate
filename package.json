@@ -1,0 +1,22 @@
+{
+  "name": "example-bare",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "css": "bun run src/scss/compile-sass.ts > src/scss/app.css",
+    "clean": "rm -rf .vinxi .output"
+  },
+  "dependencies": {
+    "@solidjs/start": "^1.0.6",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.8",
+    "solid-bootstrap": "^1.0.20",
+    "solid-js": "^1.8.18",
+    "vinxi": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
